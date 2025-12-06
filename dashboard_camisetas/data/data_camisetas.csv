@@ -206,6 +206,8 @@ flamengo,home,2019-20,229.99
 arsenal,home,2004-05,229.99
 frança,home,1998-99,229.99
 brasil,home,2006-07,229.99
+brasil,away,2002-03,229.99
+flamengo,away,1995,229.99
 roma,home,2017-18,244.99
 milan,home,2013-14,259.99
 milan,home,2009-10,244.99
@@ -246,8 +248,6 @@ borussia dortmund blackout,,2023,214.99
 jamaica,away,1998-99,229.99
 escócia,home,1996-98,229.99
 brasil,home,1998-99,264.99
-brasil,away,2002-03,229.99
-flamengo,away,1995,229.99
 juventus,away,2015-16,249.99
 inter de milão,home,1998-99,259.99
 fiorentina,home,1998-99,249.99
@@ -430,6 +430,7 @@ arsenal,home,2000-02,244.99
 flamengo,third,2025-26,189.99
 corinthians,third,2025-26,189.99
 napoli,away,2025-26,229.99
+brasil,home,2025-26,189.99
 liverpool icon,,2025-26,189.99
 palmeiras bege,,2025-26,189.99
 roma,third,2025-26,189.99
@@ -536,7 +537,6 @@ oasis azul,,2025,209.99
 real betis,home,2025-26,189.99
 corinthians,home,1999,229.99
 ajax icon,,2025-26,189.99
-brasil,home,2025-26,189.99
 tottenham,third,2025-26,229.99
 venezia,away,2025-26,229.99
 liverpool,home,2025-26,229.99
@@ -913,6 +913,7 @@ arsenal,home,2000-02,229.99
 arsenal,away,1999-01,229.99
 arsenal,home,1990-92,229.99
 itália,away,1994,229.99
+tottenham,away,2025-26,189.99
 cremonese,away,2025-26,189.99
 flamengo identidade marrom,,2025,189.99
 barcelona,third,2025-26,229.99
@@ -1265,7 +1266,6 @@ arsenal,home,2025-26,229.99
 inter de milão,home,2025-26,229.99
 chelsea,home,2025-26,229.99
 barcelona,home,2025-26,229.99
-tottenham,away,2025-26,189.99
 venezia,away,2025-26,229.99
 flamengo,home,2025,189.99
 flamengo,third,2025,189.99

@@ -35,7 +35,7 @@ for item in all_items_data:
     print(f"Nome: {item['nome']}, Preço: {item['preço']}")
 
 df = pd.DataFrame(all_items_data)
-df.to_csv('../data/raw_data.csv', index=False)
+df.to_csv('../dashboard_camisetas/data/raw_data.csv', index=False)
 
 
 

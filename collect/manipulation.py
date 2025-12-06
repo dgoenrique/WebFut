@@ -46,7 +46,7 @@ def shirt_manipulation():
     data1['nome'] = data1['nome'].apply(clean_product_name_type)
     
     data_end = reorder_attributes(data1)
-    data_end.to_csv('../data/data_camisetas.csv', index=False)
+    data_end.to_csv('../dashboard_camisetas/data/data_camisetas.csv', index=False)
 
 
 def main():
