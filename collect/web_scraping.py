@@ -6,10 +6,10 @@ scrapper = cloudscraper.create_scraper()
 
 all_items_data = []
 
-# Teste para a página de camisas-retro
+# Extração das camisetas 
 
-for i in range(1,11):
-    url = f"https://www.recordsports.net/camisas-retro/page/{i}/"
+for i in range(1,39):
+    url = f"https://www.recordsports.net/produtos/page/{i}/"
     resp = scrapper.get(url)
 
     if resp.status_code == 200:
@@ -35,7 +35,7 @@ for item in all_items_data:
     print(f"Nome: {item['nome']}, Preço: {item['preço']}")
 
 df = pd.DataFrame(all_items_data)
-df.to_csv('data.csv', index=False)
+df.to_csv('../data/raw_data.csv', index=False)
 
 
 
