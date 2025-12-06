@@ -9,7 +9,7 @@ st.set_page_config(page_title="Gestão de Estoque - Camisas", layout="wide")
 @st.cache_data
 def load_data():
     # Carrega os dados
-    df = pd.read_csv('data/data_camisetas.csv')
+    df = pd.read_csv('./data/data_camisetas.csv')
     
     # CORREÇÃO DO ERRO: Removemos linhas onde o nome da camisa está vazio
     df = df.dropna(subset=['nome'])
