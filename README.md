@@ -32,6 +32,9 @@ A solução está organizada em duas etapas principais: Coleta (ETL) e Visualiza
 
 ```text
 /
+├── LICENCE
+├── README.md
+├── requirements.txt # Requisitos para rodar o sistema
 │
 ├── collect/          # Scripts de Web Scraping e ETL inicial
 │   ├── web_scraping.py        # Extração dos dados brutos
@@ -44,3 +47,37 @@ A solução está organizada em duas etapas principais: Coleta (ETL) e Visualiza
     └── data/
         ├── data_camisetas.csv # Dataset processado
         └── raw_data.csv       # Dados brutos retirados do site original
+```
+
+## 🚀 Como Rodar Localmente
+Siga os passos abaixo para configurar o ambiente e executar o projeto em sua máquina.
+
+### 1. Preparar o Ambiente:
+É altamente recomendável criar um ambiente virtual para isolar as dependências do projeto. Abra o seu terminal na pasta raiz do projeto e execute:
+
+#### Windows
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+#### Linux/macOS
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Instalar Dependências
+Com o ambiente virtual ativo, instale todas as bibliotecas necessárias (como streamlit, pandas e plotly) listadas no arquivo de requisitos:
+
+```bash
+pip install -r requirements.txt
+``` 
+
+### 3. Executar o Dashboard
+Para iniciar a aplicação, utilize o comando do Streamlit apontando para o arquivo principal. Baseado na estrutura do projeto, o arquivo app.py está dentro da pasta dashboard_camisetas:
+
+```bash
+streamlit run dashboard_camisetas/app.py
+```
+O navegador abrirá automaticamente no endereço local.
